@@ -1,0 +1,74 @@
+body
+{
+	background: #c9c9c9;
+}
+header
+{
+    margin: auto;
+    width: 100%;
+   /* border: 3px solid black;*/
+    padding: 10px;
+    text-align: center;
+}
+
+.listapedido
+{
+    float: left;
+    width: 80%;
+   /*border: 3px solid black;*/
+    padding: 10px;
+    margin-left: 140px;
+}
+
+.infopedido
+{
+    clear: left;
+    float: left;
+    width: 50%;
+   /*border: 3px solid black;*/
+    padding: 20px;
+    padding-bottom: 35px;
+    padding-left: 150px;
+
+}
+
+.ingredientespedido
+{
+	float: right;
+    width: 50%;
+    height: 275px;
+    /*border: 3px solid black;*/
+    padding-right: 150px;
+    padding-left: 5px;
+}
+
+.navegacion
+{
+    margin-left: 100px;
+}
+
+.titulohead
+{
+    margin-bottom: : 200px;
+}
+
+.guisoscenter
+{
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+}
+
+.centrarbotones
+{
+    margin-left: 60px;
+}
+
+.centrarhistorial
+{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+}

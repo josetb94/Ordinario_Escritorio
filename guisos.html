@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="http://v4-alpha.getbootstrap.com/favicon.ico">
+	<title>Lista de Productos</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<header>
+	<h1>Lista de Productos</h1>
+	<br>
+	<div class="navegacion">
+				<nav class="navbar navbar-light bg-faded">
+					<a class="navbar-brand" href="#"></a>
+					<ul class="nav navbar-nav">
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html">Lista de pedidos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="guisos.html">Productos<span class="sr-only"></span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="catalago.html">Catalago Menu</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="historial.html">Historial</a>
+						</li>
+					</ul>
+					<form class="form-inline navbar-form pull-right">
+					</form>
+				</nav>
+			</div>
+			<h3>Productos</h3>
+<hr>
+</header>
+
+	<div class="guisoscenter">
+		<div class="row"  data-bind="foreach: menu_producto">
+		  <div class="col-md-4">
+		    <div class="thumbnail">
+		     
+		        <img src="" data-bind="attr:{src:Imagen} " style="width:70%">
+		        <div class="caption">
+		          <h4 data-bind="text: Nombre"><strong></strong></h4>
+		        </div>
+		      </a>
+		     	 <a class="btn btn-outline-primary btn-rounded waves-effect">Editar</a>
+		     	 <a class="btn btn-outline-warning btn-rounded waves-effect">Agotado</a>
+		         <a class="btn btn-outline-danger btn-rounded waves-effect">Deshabilitar</a>
+		    </div>
+		  </div>
+
+
+		</div>
+	</div>
+	
+			<script src="js/jquery-3.2.1.js"></script>
+		<script type="text/javascript" src="js/main2.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type='text/javascript' src='js/knockout-3.4.2.js'></script>
+	
+</body>
+</html>
